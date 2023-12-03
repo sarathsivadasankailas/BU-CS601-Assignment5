@@ -1,5 +1,6 @@
 let tableBody = document.getElementById('details');
-let educationDetails = "./education_background.js";
+// JSON file hosted in github site
+let educationDetails = "./education_background.json";
 
 function getMyEducationBackground() {
     fetch(educationDetails).then(response => {
