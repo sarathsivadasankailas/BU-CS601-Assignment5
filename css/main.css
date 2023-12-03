@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: "Clarkson",Helvetica,sans-serif;
+    background-image: url("../images/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+}
+
+main {
+    color: black;
+}
+
+#education {
+    text-align: center;
+}
+
+button {
+    margin-top: 75px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+h2 {
+    color: black;
+    padding-top: 25px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Remove borders */
+table, th, td {
+    border-spacing: 0;
+    padding-bottom: 100px;
+}
+
+/* Curved border for table header */
+thead tr th:first-of-type {
+    border-top-left-radius: 8px;
+}
+
+thead tr th:last-of-type {
+    border-top-right-radius: 8px;
+}
+
+/*Table row color*/
+tr {
+    background-color: #CCCCCC;
+}
+
+/* Table header row design */
+thead tr {
+    background-color: black;
+    color: white;
+    font-size: large;
+    height: 75px;
+}
+
+/* Table alternate row design */
+tr:nth-child(even) {
+    background-color: #999999;
+}
+
+/* Table hover effect */
+tbody tr:hover {
+    color: white;
+    background-color: #545454;
+}
+
+/*Table last row border */
+tbody tr:last-of-type td {
+    border-bottom: 4px solid black;
+}
+
+/* Spacing */
+th, td {
+    padding: 20px;
+}
