@@ -1,6 +1,6 @@
 let tableBody = document.getElementById('details');
-// JSON file hosted in github site
-let educationDetails = "./education_background.json";
+// JSON file hosted in public web server
+let educationDetails = "https://precious-fenglisu-124582.netlify.app/education_background.json";
 
 function getMyEducationBackground() {
     fetch(educationDetails).then(response => {
