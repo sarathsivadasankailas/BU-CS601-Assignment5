@@ -1,6 +1,7 @@
 let tableBody = document.getElementById('details');
 // JSON file hosted in public web server
 let educationDetails = "https://precious-fenglisu-124582.netlify.app/education_background.json";
+//let educationDetails = "./education_background.json"
 
 /**
  * This function parses the json data and updates the DOM
