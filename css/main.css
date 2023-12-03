@@ -2,9 +2,6 @@ body {
     margin: 0;
     font-family: "Clarkson",Helvetica,sans-serif;
     background-image: url("../images/background.jpg");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 

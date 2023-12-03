@@ -2,7 +2,10 @@ let tableBody = document.getElementById('details');
 // JSON file hosted in public web server
 let educationDetails = "https://precious-fenglisu-124582.netlify.app/education_background.json";
 
-function getMyEducationBackground() {
+/**
+ * This function parses the json data and updates the DOM
+ */
+function updateMyEducationBackground() {
     fetch(educationDetails).then(response => {
         return response.json();
     }).then( jsonData => {
